@@ -7,7 +7,7 @@ erb :newteam
 end
 
 post "/newteam" do
-  put params
+  puts params
 end
 
 end
